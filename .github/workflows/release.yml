@@ -8,6 +8,7 @@ on:
       publish:
         description: 'Publish: If want ignore'
         required: false
+permissions: read-all|write-all
 jobs:
   libcore:
     name: Native Build (LibCore)
